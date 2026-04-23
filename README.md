@@ -15,3 +15,5 @@ thermal property calculation (phonopy -t)
 Renames output files based on displacement index
 Moves all thermal data into a common qha directory
 Ensures correct naming of the reference configuration
+
+After the vasp calculations are over with the displaced supercells (giving negative and positive strains), were calculated the FORCE_CONSTANTS and thermal_properties.yaml-** are calculated and all the files are copied to a root qha folder for the final evaluation. It is worth to be mentioned here that one should consider the 10th folder as their equilibrium folder and give positive and negative strains accordingly.
